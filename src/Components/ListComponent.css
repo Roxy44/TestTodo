@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.ant-list-bordered {
+    background: white;
+    width: 600px;
+}
+
+.todoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.todoHeader > .anticon {
+    margin-right: 0.5rem;
+    color: lightgray;
+    font-size: 1.2em;
+}
+
+.ant-input {
+    border: none;
+}
+
+.ant-input::placeholder {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.todoItem {
+    font-size: 1.5em;
+}
+
+.todoItemCheckbox {
+    margin-right: 1rem;
+}
+
+.todoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Dancing Script';
+}
