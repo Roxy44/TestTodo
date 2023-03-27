@@ -15,7 +15,6 @@ export default function ListComponent() {
   const [status, setStatus] = useState('All');
 
   const addNewToDo = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    console.log(e);
     setTodos([...todos, {name: e.currentTarget.value, isChecked: false}]);
     setLeftTasks(leftTaskToDo + 1);
   }
